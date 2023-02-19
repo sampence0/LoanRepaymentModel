@@ -1,8 +1,17 @@
-# MacroFinalProject
-This repository contains a Python script (WORK IN PROGRESS) that aims to create a predictive model for credit default based on demographic and financial data of 300,000+ borrowers. The dataset used in this project was obtained from Kaggle and was originally sourced from Home Credit Group. Home Credit Group is an international non-bank financial institution that provides consumer loans to individuals who have little or no access to traditional banking services. The dataset contains information on credit applications from Home Credit customers, including their credit history, financial information, and loan repayment behavior. The goal of this project is to build a machine learning model that can predict whether or not a customer is likely to default on their loan based on their application information.
+# Credit Default Risk Model
 
-The credit default dataset will be split into a training set and a testing set. 80% of the data will be used for training the random forest classifier, and 20% will be used for testing the accuracy of the classifier. This approach is known as the train-test split.
+This project trains a machine learning model on a dataset of over 307,000 loan applications from Home Credit Group to predict the likelihood of loan repayment by an applicant. The model takes in six features of an applicant and outputs a binary prediction of either 0 or 1, where 0 indicates that the applicant is likely to repay the loan and 1 indicates that the applicant is unlikely to repay the loan. This is intended to be a learning exercise in data preprocessing, EDA, and machine learning. Contributions and suggestions are welcome, and the project will continue to be updated with new features and improvements.
 
-The training data will be used to fit the random forest classifier. In other words, the classifier will learn the patterns in the data to predict if a credit applicant is likely to default on their loan. The remaining 20% of the data will be used to evaluate the performance of the classifier. The accuracy of the model will be determined by comparing the predicted outcomes to the actual outcomes in the testing set. The goal is to create a classifier that can accurately predict whether an applicant is likely to default or not, without overfitting to the training data.
+## Dataset
+The dataset used in this project was obtained from Kaggle. The dataset includes information on loan applicants such as their age, gender, income, credit history, and other factors that might affect their likelihood of repaying a loan.
 
-This project is intended to be a learning exercise in data preprocessing, EDA, and machine learning. Contributions and suggestions are welcome, and the project will continue to be updated with new features and improvements.
+## Usage 
+1) Clone the repository to local machine
+2) Open borrowers_creditworthiness.ipynb and create an instance of the 'CreditDefault' class.
+3) Use the 'predict' method on new applicant data. The 'predict' method takes a pandas DataFrame as input containing the loan applicant information to be predicted, and returns an array of binary predictions for each loan applicant.
+
+## License
+The dataset used in this project is licensed under the Open Database License (ODbL) v1.0. Please see the Kaggle competition page for more information on the license and terms of use.
+
+## Credits
+This project was created by Sam Pence. Special thanks to Home Credit Group and Kaggle for providing the dataset used in this project.
