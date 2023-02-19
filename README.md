@@ -1,2 +1,4 @@
 # MacroFinalProject
-To Be Determined.
+This repository contains a Python script (WORK IN PROGRESS) that aims to create a predictive model for credit default based on demographic and financial data of 300,000+ borrowers. The dataset used in this project was obtained from Kaggle and was originally sourced from Home Credit Group. Home Credit Group is an international non-bank financial institution that provides consumer loans to individuals who have little or no access to traditional banking services. The dataset contains information on credit applications from Home Credit customers, including their credit history, financial information, and loan repayment behavior. The goal of this project is to build a machine learning model that can predict whether or not a customer is likely to default on their loan based on their application information.
+
+This project is intended to be a learning exercise in data preprocessing, EDA, and machine learning. Contributions and suggestions are welcome, and the project will continue to be updated with new features and improvements.
